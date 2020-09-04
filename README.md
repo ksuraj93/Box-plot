@@ -2,10 +2,4 @@
 This Repository has a collection of R Visuals. 
 ## Example of displaying htmlwidgets on a Github pages site
 
-```{r}
-# Source: http://www.htmlwidgets.org/showcase_plotly.html
-library(plotly)
-p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
-            geom_bar(position = "dodge")
-ggplotly(p)
-```
+<iframe width="900" height="500" frameborder="2" scrolling="no" src="//plotly.com/~surajkannan/3.embed"></iframe>
